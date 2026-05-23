@@ -1,0 +1,32 @@
+2026-05-23 09:52:02.330  INFO 20240 --- [main] c.inventory.backend.BackendApplication   : Starting BackendApplication using Java 17.0.12 on DESKTOP-OJB3ACM with PID 20240 (C:\Users\DELL\OneDrive\Desktop\smart-inventory-system\backend\InventoryManagement\target\classes started by DELL in C:\Users\DELL\OneDrive\Desktop\smart-inventory-system\backend\InventoryManagement)
+2026-05-23 09:52:02.337 DEBUG 20240 --- [main] c.inventory.backend.BackendApplication   : Running with Spring Boot v2.7.17, Spring v5.3.30
+2026-05-23 09:52:02.338  INFO 20240 --- [main] c.inventory.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-05-23 09:52:05.072  INFO 20240 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-23 09:52:05.102  INFO 20240 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2026-05-23 09:52:06.960  INFO 20240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-05-23 09:52:06.986  INFO 20240 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-23 09:52:06.986  INFO 20240 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2026-05-23 09:52:08.013  INFO 20240 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2026-05-23 09:52:08.013  INFO 20240 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5535 ms
+2026-05-23 09:52:08.570  INFO 20240 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-23 09:52:08.690  INFO 20240 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2026-05-23 09:52:09.463  INFO 20240 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-05-23 09:52:09.713  INFO 20240 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-23 09:52:11.117  INFO 20240 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-23 09:52:11.313  INFO 20240 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2026-05-23 09:52:50.370  INFO 20240 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-05-23 09:52:50.396  INFO 20240 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-23 09:52:50.584  WARN 20240 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-23 09:52:51.391  WARN 20240 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b6688fb5-6a51-4ff7-a236-fb04700e3e44
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-23 09:52:51.565 DEBUG 20240 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression [authenticated] for any request
+2026-05-23 09:52:51.610  INFO 20240 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@79c1ccf7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4654e373, org.springframework.security.web.context.SecurityContextPersistenceFilter@2b3b1124, org.springframework.security.web.header.HeaderWriterFilter@d6d683e, org.springframework.security.web.csrf.CsrfFilter@19e801b5, org.springframework.security.web.authentication.logout.LogoutFilter@126254ec, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3b25709e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@56499781, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2474df51, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@42ffbab6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@507f47f9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6785df10, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2864d34d, org.springframework.security.web.session.SessionManagementFilter@43778371, org.springframework.security.web.access.ExceptionTranslationFilter@1c53bd49, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3bdbf8d3]
+2026-05-23 09:52:51.810  INFO 20240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2026-05-23 09:52:51.839  INFO 20240 --- [main] c.inventory.backend.BackendApplication   : Started BackendApplication in 52.925 seconds (JVM running for 56.37)
+2026-05-23 09:53:35.765  INFO 20240 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-23 09:53:35.856  INFO 20240 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-23 09:53:36.057  INFO 20240 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
