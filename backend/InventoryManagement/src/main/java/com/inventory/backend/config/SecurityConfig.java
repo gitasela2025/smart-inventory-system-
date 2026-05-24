@@ -51,10 +51,11 @@ public class SecurityConfig {
     }
 
     @Bean
+    
     public PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
+        // TEMPORARY - allows plain text passwords
+        return org.springframework.security.crypto.password.NoOpPasswordEncoder.getInstance();
     }
-
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();

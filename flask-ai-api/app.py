@@ -17,7 +17,7 @@ warnings.filterwarnings('ignore')
 
 # Initialize Flask app
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins='http://localhost:3000') 
 
 # ======================================================
 # DATABASE CONFIGURATION
@@ -25,8 +25,9 @@ CORS(app)
 DB_CONFIG = {
     'host': 'localhost',
     'user': 'root',
-    'password': 'admin123',  # 🔴 CHANGE THIS to your MySQL password
-    'database': 'smart_inventory'
+    'password': 'admin123',
+    'database': 'smart_inventory',
+    'auth_plugin': 'mysql_native_password'
 }
 
 # Model path
