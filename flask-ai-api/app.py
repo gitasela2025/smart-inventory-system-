@@ -836,4 +836,4 @@ if __name__ == '__main__':
     print("   GET /api/product-movement    (Day 10)")
     print("=" * 60)
     
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True, host='0.0.0.0', port=5001)

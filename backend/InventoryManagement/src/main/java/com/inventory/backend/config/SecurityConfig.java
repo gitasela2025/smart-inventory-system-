@@ -51,7 +51,7 @@ public class SecurityConfig {
     }
 
     @Bean
-    
+
     public PasswordEncoder passwordEncoder() {
         // TEMPORARY - allows plain text passwords
         return org.springframework.security.crypto.password.NoOpPasswordEncoder.getInstance();
